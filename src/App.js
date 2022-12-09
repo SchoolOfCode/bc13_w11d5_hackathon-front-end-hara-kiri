@@ -4,8 +4,8 @@ import Button from './Component/Button';
 function App() {
   return (
     <div className="App">
-      <Button className='owners' />
-      <Button className='pets'/>
+      <Button className={'owners'} />
+      <Button className={'pets'}/>
     </div>
   );
 }
